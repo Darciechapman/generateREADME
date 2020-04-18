@@ -25,8 +25,8 @@ inquirer
         },
         {
             type: "input",
-            name: "installStepNo",
-            message: "How many steps are there for installation?"
+            name: "install",
+            message: "What are steps for installation?"
         },
         {
             type: "input",
@@ -49,10 +49,8 @@ inquirer
             message: "License used:"
         },
     ])
-    .then(({username, repoName, readmeName, description, installation, usage, credit, creditLink, license}) => {
+    .then(({username, repoName, readmeName, description, install, usage, credit, creditLink, license}) => {
         const readmeMD = `
-username: ${username}
-repo name: ${repoName}
 ## ${readmeName}
 
 ## Description
@@ -61,7 +59,7 @@ ${description}
 
 ## Installation Steps
 
-${installation}
+${install}
 
 ## Usage
 
@@ -79,6 +77,8 @@ ${license}
 
 ![badmath](https://img.shields.io/github/repo-size/${username}/${repoName})
 
+username: ${username}
+repo name: ${repoName}
 
         `;
 

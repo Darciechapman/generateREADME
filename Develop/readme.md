@@ -1,31 +1,27 @@
 
-username: Darciechapman
-repo name: event-finder
-## hdbfjg
+## Read me file generator
 
 ## Description
 
-dfkjgb
+Creates a read me file from terminal. Terminal prompts a series of questions about the project to then display in a readme.md format
 
 ## Installation Steps
 
-undefined
+First step is to direct yourself into generateREADME terminal. npm install, then run Node and answer the prompted questions
 
 ## Usage
 
-dhfgb
-
-## Contribution
-
-kdfbg (jhdfbg)
+Creating a designed discription file for projects
 
 ## Lincese
 
-jhbdfg
+MIT
 
 ## Badge
 
-![badmath](https://img.shields.io/github/repo-size/Darciechapman/event-finder)
+![badmath](https://img.shields.io/github/repo-size/Darciechapman/generateREADME)
 
+username: Darciechapman
+repo name: generateREADME
 
         
